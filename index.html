@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Story Chapters</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 2rem;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            overflow: hidden;
+        }
+
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 2rem;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+            font-weight: 700;
+        }
+
+        header p {
+            opacity: 0.9;
+            font-size: 1.1rem;
+        }
+
+        .content {
+            padding: 3rem;
+        }
+
+        .chapter {
+            margin-bottom: 3rem;
+            padding: 2rem;
+            background: #f8f9fa;
+            border-radius: 8px;
+            border-left: 4px solid #667eea;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .chapter:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        .chapter h2 {
+            color: #667eea;
+            margin-bottom: 1rem;
+            font-size: 1.8rem;
+            font-weight: 600;
+        }
+
+        .chapter p {
+            color: #555;
+            font-size: 1.1rem;
+            line-height: 1.8;
+            white-space: pre-line;
+        }
+
+        .chapter:last-child {
+            margin-bottom: 0;
+        }
+
+        footer {
+            background: #f8f9fa;
+            padding: 1.5rem;
+            text-align: center;
+            color: #666;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Story Chapters</h1>
+            <p>A collection of chapters</p>
+        </header>
+        
+        <div class="content">
+            <div class="chapter">
+                <h2>Chapter 1</h2>
+                <p>It was the best of time, it was the worst of time
+
+blah blah blah</p>
+            </div>
+
+            <div class="chapter">
+                <h2>Chapter 2</h2>
+                <p>it was an age of great sex yaaa
+big blah big blah</p>
+            </div>
+
+            <div class="chapter">
+                <h2>Chapter 3</h2>
+                <p>Do you smell what the rock is cooking or are you just unable?
+some blah blah some blah</p>
+            </div>
+
+            <div class="chapter">
+                <h2>Chapter 4</h2>
+                <p>This is seriously a confusing concept but I will master it with a lot of practice and effrot.</p>
+            </div>
+        </div>
+
+        <footer>
+            <p>&copy; 2024 Story Chapters. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
